@@ -44,7 +44,7 @@ export default function VerificationComponent(props) {
     isActive2FA,
   } = formFields;
   
-  //console.log(JSON.parse(localStorage.getItem("user")));
+ 
   const handleChange = (event) => {
     event.preventDefault();
     const { name, value } = event.target;
@@ -53,8 +53,7 @@ export default function VerificationComponent(props) {
   const onSubmit = (e) => {
     e.preventDefault();
     Login();
-    //props.mode === "login" ? Login() : Register();
-    //activeUser({name:"michael"})
+   
   };
   
 
@@ -119,7 +118,7 @@ export default function VerificationComponent(props) {
                 <div className='form-group form-group--login'>
                   <Input
                     type='text'
-                    //id='username'
+                    
                     name='code'
                     label='Verify the code send to your phone number'
                     value={code}

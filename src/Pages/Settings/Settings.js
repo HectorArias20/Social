@@ -11,7 +11,7 @@ import Checkbox from "../../controls/Checkbox";
 import Button from "../../controls/Button";
 import { borderColor } from "@mui/system";
 import SendIcon from "@mui/icons-material/Send";
-import twitterImg from "../../images/twitter.gif";
+import twitterImg from "../../images/twiter.png";
 import linkedinImg from "../../images/linkedin.gif";
 import Redirect from "react-router-dom";
 import { useContext } from "react";

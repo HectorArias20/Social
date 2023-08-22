@@ -7,9 +7,7 @@ export const Container = styled.div`
   right: 0;
   height: 100%;
   overflow-y: scroll;
-  background-image: url("https://unsplash.it/1366/768?image=568");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("https://bigthink.com/wp-content/uploads/2022/03/AdobeStock_389328016_Editorial_Use_Only.jpeg");
 `;
 
 export const FormBlockWrapper = styled.div`
@@ -25,9 +23,7 @@ export const FormBlockWrapper = styled.div`
   background-color: ${props=>{
     switch (props.type){
       case 'login':
-        return "#2C497F";
-      default:
-        return "#433B7C";
+    
     }
   }}
 `;

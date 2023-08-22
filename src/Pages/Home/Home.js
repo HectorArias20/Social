@@ -407,16 +407,6 @@ export default function Home() {
                       md={12}
                       sx={{ textAlign: "right", margin: "15px" }}
                     >
-                      {/* <Tooltip title='Add a new employee'>
-                        <IconButton onClick={() => setOpenPopUp(true)}>
-                          <PersonAddRoundedIcon
-                            //onMouseOver={() => alert("Add New Client")}
-
-                            fontSize='large'
-                            sx={{ color: "blue" }}
-                          ></PersonAddRoundedIcon>
-                        </IconButton>
-                      </Tooltip> */}
                     </Grid>
                   </Grid>
                   <Grid>

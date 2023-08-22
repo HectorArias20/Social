@@ -14,8 +14,7 @@ body {
 }
 .App {
   display:flex;
-  
-  background-color:black;
+  background-image: url(/src/images/fondopan.webp);
 }
 .main{
   padding: auto;
@@ -25,66 +24,8 @@ body {
   width:100%;
 }
 
-/* .app {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  overflow-y: scroll;
-  background-image: url("https://unsplash.it/1366/768?image=568");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
-/* .form-block-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  -moz-transition: all 0.85s ease-in-out;
-  -webkit-transition: all 0.85s ease-in-out;
-  transition: all 0.85s ease-in-out;
-} */
-/* .form-block-wrapper--is-login {
-  opacity: 0.92;
-  background-color: #2C497F;
-}
-.form-block-wrapper--is-signup {
-  opacity: 0.94;
-  background-color: #433B7C;
-} */
 
-/* .form-block {
-  position: relative;
-  margin: 100px auto 0;
-  width: 285px;
-  padding: 25px;
-  background: rgba(255, 255, 255, 0.13);
-  border-radius: 2px;
-  color: #fff;
-  -webkit-box-shadow: 0px 0px 16px 9px rgba(0, 0, 0, 0.07);
-  -moz-box-shadow: 0px 0px 16px 9px rgba(0, 0, 0, 0.07);
-  box-shadow: 0px 0px 16px 9px rgba(0, 0, 0, 0.07);
-} */
-
-/* .form-block__header {
-  margin-bottom: 20px;
-} */
-/* .form-block__header h1 {
-  font-size: 30px;
-  margin: 0 0 20px;
-} */
-
-/* .form-block__toggle-block {
-  position: relative;
-}
-.form-block__toggle-block span {
-  font-size: 13px;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.65);
-} */
 
 .form-block__input-wrapper {
   height: 126px;

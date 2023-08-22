@@ -43,7 +43,7 @@ export default function LoginForm(props) {
   const onSubmit = (e) => {
     e.preventDefault();
     props.mode === "login" ? Login() : Register();
-    //activeUser({name:"michael"})
+  
   };
   const Register = async () => {
     if (password !== passwordConfirm) {
@@ -154,7 +154,7 @@ export default function LoginForm(props) {
         <div className="form-group form-group--login">
           <Input
             type="text"
-            //id='username'
+            
             name="username"
             label="Email"
             value={username}

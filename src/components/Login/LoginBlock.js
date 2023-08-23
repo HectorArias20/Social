@@ -18,7 +18,7 @@ export default function LoginComponent(props) {
             <FormBlockWrapper type={mode} ></FormBlockWrapper>
             <FormBlock className={`form-block--is-${mode}`}>
                 <FormHeader>
-                    <h1>{mode === 'login' ? 'Welcome back!' : 'Sign up'}</h1>
+                    <h1>{mode === 'login' ? ' Welcome' : 'Sign up'}</h1>
                     <FormToggleBlock>
                         <span>{mode === 'login' ? 'Don\'t' : 'Already'} have an account? Click here &#8594;</span>
                         <input id="form-toggler" type="checkbox" onClick={toggleMode.bind()} />
